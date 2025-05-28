@@ -4,6 +4,14 @@ body {
   color: #330000;
   margin: 30px;
   line-height: 1.6;
+#moreText {
+      display: none;
+    }
+    #toggle:checked + #moreText {
+      display: inline;
+    }
+
+  
 }
 
 .hidden{
